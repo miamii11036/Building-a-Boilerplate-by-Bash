@@ -53,3 +53,4 @@ cd..
 cd ..
 mv images/footer.jpeg client/assets/images
 find
+rmdir website/images

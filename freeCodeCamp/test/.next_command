@@ -66,3 +66,17 @@ cd ..
 rmdir website/images
 rmdir images
 ls --color=auto
+mkdir icons client/assets
+ls --color=auto
+mv icons client/assets
+cd assets
+cd client
+ls --color=auto
+cd assets
+ls --color=auto
+rm icons
+rmdir icons
+ls --color=auto
+cd ../..
+__vsc_prompt_cmd_original
+mkdir client/assets/icons

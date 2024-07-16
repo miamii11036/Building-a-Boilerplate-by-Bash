@@ -65,3 +65,4 @@ ls --color=auto
 cd ..
 rmdir website/images
 rmdir images
+ls --color=auto

@@ -82,3 +82,13 @@ __vsc_prompt_cmd_original
 mkdir client/assets/icons
 mv CodeAlly.svg client/assets/icons
 find
+cd client/assets
+ls --color=auto
+cd icons
+ls --color=auto
+cd../../..
+cd ../..
+cd ..
+ls --color=auto
+mv CodeRoad,svg client/assets/icons
+mv CodeRoad.svg client/assets/icons

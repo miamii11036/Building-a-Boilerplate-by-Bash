@@ -175,3 +175,4 @@ cd fonts
 find
 cd ../../..
 find client/assets/fonts
+touch client/assets/fonts/lato-bold.ttf

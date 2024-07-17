@@ -193,3 +193,6 @@ I finished the boilerplate!
 echo I finished the boilerplate!
 __vsc_prompt_cmd_original
 echo one more thing...
+__vsc_prompt_cmd_original
+echo I made this boilerplate README.md
+echo I made this boilerplate >> README.md

@@ -181,3 +181,4 @@ rm client/assets/fonts/laro-light.ttf
 touch client/assets/fonts/lato-light.ttf
 find
 rm --help
+rm -r fonts

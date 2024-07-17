@@ -160,3 +160,18 @@ git push
 __vsc_prompt_cmd_original
 git push --set-upstream origin main
 touch client/assets/fonts/roboto-light.woff
+cd client
+cd font
+cd fonts
+cd assets
+cdfonts
+cd fonts
+cd ../../..
+find
+cd client
+find
+cd assets
+cd fonts
+find
+cd ../../..
+find client/assets/fonts

@@ -3,7 +3,7 @@
 在成長過程中留下紀錄
 
 ## 目錄
-1. [這專案在學什麼]()
+1. [這專案在學什麼](https://github.com/miamii11036/Building-a-Boilerplate-by-Bash/blob/main/README.md#%E5%B0%88%E6%A1%88%E4%BB%8B%E7%B4%B9)
 2. 在這個專案中學到的指令整理
 3. 一些執行過程中遇到的困難與解決方式
 4. 學到的教訓

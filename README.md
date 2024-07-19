@@ -28,7 +28,7 @@
   + 【變化】
     + ```touch <folder_path>/<new_file_name>```：在目前資料夾中，創建名為<new_file_name>的檔案且該檔案位於<folder_path>裡，不是目前資料夾中。
 ### 移動類指令 - cd, mv
-+ ```cd <folder_name>```：將目前狀態移至<folder_name>的資料夾。
++ ```cd <folder_name> 或 <file_name>```：將目前狀態移至<folder_name> 或 <file_name> 的資料夾 或 檔案。
   + 【變化】
     + ```cd ..```：將狀態退回前一個資料夾。
     + ```cd ../..```：將狀態退回 前前一個資料夾。
@@ -44,13 +44,13 @@
   + 【標籤】
      + ```ls -a```：列出目前資料夾中，所有的檔案與資料夾(包含被隱藏的)
      + ```ls -l```：在目前資料夾中，以條列式呈現，所有沒有被隱藏起來的檔案與資料夾。
-+ ```echo <text>```：讓終端顯示出<text>
++ ```echo <text>```：讓終端顯示出<text>的內容。
   ```bash
   echo hello world
-  helo worl
+  helo world
   ```
   + 【變化】
-      + ```echo <text> >> <file_name>```
+      + ```echo <text> >> <file_name>```：在名為<file_name>檔案中，輸入<text>的內容。
 ### 刪除類指令 - rm, rmdir
 + ```rm <file_name>```
   + 【變化】

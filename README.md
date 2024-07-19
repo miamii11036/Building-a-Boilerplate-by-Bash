@@ -20,17 +20,18 @@
   + ```find <folder_name>```：以數狀圖的形式顯示<folder_name>資料夾中的所有資料。
 
 
-### 創建類 - mkdir,touch
+### 創建類指令 - mkdir,touch
 + ```mkdir <new_folder_name>```：在目前資料夾中，創建名為<new_folder_name>的資料夾。
   + 【變化】
     + ```mkdir <folder_path>/<new_folder_name>```：在目前資料夾中，創建名為<new_folder_name>的資料夾且該資料夾位於<folder_path>裡，不是目前資料夾中。
 + ```touch <new_file_name>```：在目前資料夾中，創建名為<new_file_name>的檔案。
   + 【變化】
     + ```touch <folder_path>/<new_file_name>```：在目前資料夾中，創建名為<new_file_name>的檔案且該檔案位於<folder_path>裡，不是目前資料夾中。
-
-cd 
-cd .. 
-cd ../..
+### 移動類指令 - cd
++ ```cd <folder_name>```：將目前狀態移至<folder_name>的資料夾。
+  + 【變化】
+    + ```cd ..```：將狀態退回前一個資料夾。
+    + ```cd ../..```：將狀態退回 前前一個資料夾。
 
 ls -l  -a
 echo

@@ -21,8 +21,8 @@
 
 
 ### 創建類 - mkdir,touch
-mkdir
-touch
++ ```mkdir <new_folder_name>```：在目前資料夾中，創建名為<new_folder_name>的資料夾。
++ ```touch <new_file_name>```：在目前資料夾中，創建名為<new_file_name>的檔案。
 
 cd 
 cd .. 

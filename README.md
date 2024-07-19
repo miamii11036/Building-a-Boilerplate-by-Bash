@@ -40,8 +40,12 @@
 + ```echo```
   + 【變化】
       + ```echo <text> >> <file_name>```
+### 刪除類指令 - rm,rmdir
++ ```rm <file_name>```
++ ```rmdir <folder_name>```
+  + 【標籤】
+    + ```rmdir -r```
 
-rm 
-rmdir -r
+
 
 

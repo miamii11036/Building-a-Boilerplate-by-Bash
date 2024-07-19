@@ -39,7 +39,7 @@
 > ```mv <file_name> <new_file_name>```：將名為<file_name>的檔案，重新命名成<new_file_name>。
 
 
-### 顯示類指令 - ls, echo
+### 顯示類指令 - ls, echo, more
 + ```ls```：列出目前資料夾中，所有沒有被隱藏起來的檔案與資料夾。
   + 【標籤】
      + ```ls -a```：列出目前資料夾中，所有的檔案與資料夾(包含被隱藏的)
@@ -47,6 +47,7 @@
 + ```echo <text>```：讓終端顯示出<text>的內容。
   + 【變化】
       + ```echo <text> >> <file_name>```：在名為<file_name>檔案中，輸入<text>的內容。
++ ```more <file_name>```：將<file_name>的檔案資料以一頁一頁的方式顯示在終端，方便閱讀。
 ### 刪除類指令 - rm, rmdir
 + ```rm <file_name>```：在目前資料夾中，移除名為<file_name>的檔案。
   + 【變化】

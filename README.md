@@ -6,7 +6,7 @@
 1. [這專案在學什麼](https://github.com/miamii11036/Building-a-Boilerplate-by-Bash/blob/main/README.md#%E5%B0%88%E6%A1%88%E4%BB%8B%E7%B4%B9)
 2. [在這個專案中學到的指令整理](https://github.com/miamii11036/Building-a-Boilerplate-by-Bash/blob/main/README.md#%E6%8C%87%E4%BB%A4%E7%B5%B1%E6%95%B4)
 3. [一些執行過程中遇到的困難與解決方式](https://github.com/miamii11036/Building-a-Boilerplate-by-Bash/blob/main/README.md#%E9%81%87%E5%88%B0%E7%9A%84%E5%9B%B0%E5%A2%83%E8%88%87%E8%A7%A3%E6%B1%BA%E8%BE%A6%E6%B3%95)
-4. 學到的教訓
+
 ****
 # 專案介紹
 在Linux系統中，用Bash shell創建網站模板。以此學習、熟悉Bash的基礎指令，如搜尋類指令、創建類指令、移動類指令、顯示類指令、刪除類指令

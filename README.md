@@ -45,10 +45,6 @@
      + ```ls -a```：列出目前資料夾中，所有的檔案與資料夾(包含被隱藏的)
      + ```ls -l```：在目前資料夾中，以條列式呈現，所有沒有被隱藏起來的檔案與資料夾。
 + ```echo <text>```：讓終端顯示出<text>的內容。
-  ```bash
-  echo hello world
-  helo world
-  ```
   + 【變化】
       + ```echo <text> >> <file_name>```：在名為<file_name>檔案中，輸入<text>的內容。
 ### 刪除類指令 - rm, rmdir

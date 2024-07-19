@@ -34,7 +34,7 @@
     + ```cd ../..```：將狀態退回 前前一個資料夾。
 ### 顯示類指令 - ls,echo
 + ```ls```
-  + 【變化】
+  + 【標籤】
      + ```ls -a```
      + ```ls -l```
 + ```echo```
@@ -42,6 +42,8 @@
       + ```echo <text> >> <file_name>```
 ### 刪除類指令 - rm,rmdir
 + ```rm <file_name>```
+  + 【變化】
+    + ```rm <folder_name>/<file_name>```
 + ```rmdir <folder_name>```
   + 【標籤】
     + ```rmdir -r```

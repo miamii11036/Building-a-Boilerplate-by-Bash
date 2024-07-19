@@ -4,7 +4,7 @@
 
 ## 目錄
 1. [這專案在學什麼](https://github.com/miamii11036/Building-a-Boilerplate-by-Bash/blob/main/README.md#%E5%B0%88%E6%A1%88%E4%BB%8B%E7%B4%B9)
-2. 在這個專案中學到的指令整理
+2. [在這個專案中學到的指令整理](https://github.com/miamii11036/Building-a-Boilerplate-by-Bash/blob/main/README.md#%E6%8C%87%E4%BB%A4%E7%B5%B1%E6%95%B4)
 3. 一些執行過程中遇到的困難與解決方式
 4. 學到的教訓
 ****

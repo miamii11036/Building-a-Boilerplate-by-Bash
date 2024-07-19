@@ -20,19 +20,26 @@
   + ```find <folder_name>```：以數狀圖的形式顯示<folder_name>資料夾中的所有資料。
 
 
-### 創建類指令 - mkdir,touch
+### 創建類指令 - mkdir, touch
 + ```mkdir <new_folder_name>```：在目前資料夾中，創建名為<new_folder_name>的資料夾。
   + 【變化】
     + ```mkdir <folder_path>/<new_folder_name>```：在目前資料夾中，創建名為<new_folder_name>的資料夾且該資料夾位於<folder_path>裡，不是目前資料夾中。
 + ```touch <new_file_name>```：在目前資料夾中，創建名為<new_file_name>的檔案。
   + 【變化】
     + ```touch <folder_path>/<new_file_name>```：在目前資料夾中，創建名為<new_file_name>的檔案且該檔案位於<folder_path>裡，不是目前資料夾中。
-### 移動類指令 - cd
+### 移動類指令 - cd, mv
 + ```cd <folder_name>```：將目前狀態移至<folder_name>的資料夾。
   + 【變化】
     + ```cd ..```：將狀態退回前一個資料夾。
     + ```cd ../..```：將狀態退回 前前一個資料夾。
-### 顯示類指令 - ls,echo
++ ```mv <file_name> <folder_path/folder_name>```將名為<file_name>的檔案，從目前的資料夾中移至 <folder_path/folder_name>的資料夾中。
+  
+> mv是具有兩種功能的指令，一個是移動檔案位置，另一個是更改檔案名稱
+>
+> ```mv <file_name> <new_file_name>```：將名為<file_name>的檔案，重新命名成<new_file_name>。
+
+
+### 顯示類指令 - ls, echo
 + ```ls```
   + 【標籤】
      + ```ls -a```
@@ -40,14 +47,11 @@
 + ```echo```
   + 【變化】
       + ```echo <text> >> <file_name>```
-### 刪除類指令 - rm,rmdir
+### 刪除類指令 - rm, rmdir
 + ```rm <file_name>```
   + 【變化】
     + ```rm <folder_name>/<file_name>```
 + ```rmdir <folder_name>```
   + 【標籤】
     + ```rmdir -r```
-
-
-
 

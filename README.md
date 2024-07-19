@@ -22,7 +22,7 @@
 
 ### 創建類 - mkdir,touch
 + ```mkdir <new_folder_name>```：在目前資料夾中，創建名為<new_folder_name>的資料夾。
-  +【變化】
+  + 【變化】
     + ```mkdir <folder_path>/<new_folder_name>```：在目前資料夾中，創建名為<new_folder_name>的資料夾且該資料夾位於<folder_path>裡，不是目前資料夾中。
 + ```touch <new_file_name>```：在目前資料夾中，創建名為<new_file_name>的檔案。
   + 【變化】

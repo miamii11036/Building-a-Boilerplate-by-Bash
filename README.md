@@ -52,10 +52,10 @@
   + 【變化】
       + ```echo <text> >> <file_name>```：在名為<file_name>檔案中，輸入<text>的內容。
 ### 刪除類指令 - rm, rmdir
-+ ```rm <file_name>```
++ ```rm <file_name>```：在目前資料夾中，移除名為<file_name>的檔案。
   + 【變化】
-    + ```rm <folder_name>/<file_name>```
-+ ```rmdir <folder_name>```
+    + ```rm <folder_name>/<file_name>```：在目前資料夾中，移除<folder_name>資料夾中的<file_name>檔案
++ ```rmdir <folder_name>```：在目前資料夾中，移除名為<folder_name>的資料夾，且該資料夾不能含有其他檔案。
   + 【標籤】
-    + ```rmdir -r```
+    + ```rmdir -r <folder_name>```在目前資料夾中，移除名為<folder_name>的資料夾，不論該資料夾有沒有其他檔案。
 

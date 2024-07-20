@@ -71,4 +71,12 @@ freecodecamp的relational database的相關實作專案是以Linux作業系統�
 + VScode：是一種開源的程式碼編輯器，能夠跨平臺、安裝各種擴展軟件(如執行此專案會用到的Dev container)、支援Git能直接版本控制、整合式終端能直接用各種程式語言編碼，超好用神器，偉哉！！Microsoft爸爸！
 + Git：是一種開源的分散式版本控制系統，藉由創建儲存庫來紀錄保存文件與其更改歷史，還能建立遠端儲存庫讓多個使用端遠端下載。
 
+### 執行學習專案的方法
+1. 開啟Git終端，將freecodecamp的Github學習專案儲存庫複製至本機。(遠端儲存庫連結：https://github.com/freeCodeCamp/rdb-alpha)
+2. 開啟本機的終端，將目前路徑導航至剛剛複製的資料夾(rdb-alpha)：輸入 ```cd rdb-alpha```，讓原本的狀態 C:\users 變成C:\users\rdb-alpha) (前提是要將rdb-alpha資料夾儲存在使用者資料夾中，才能成功導航。當然，你也能儲存至別的資料夾並導航過去，反正要讓終端找到這個rdb-alpha資料夾就是了)
+3. 輸入 ```code . ```，會自動啟動VSCode
+4. 在VSCode中，按下ctrl + shift + P (或直接在上端的搜尋欄點選```show and run commands```)打開命令面板，輸入並執行```Dev Containers: Rebuild and Reopen in Container```，會自動下載並執行Dev Containers (沒有就手動下載並再次輸入命令)，之後系統會自動建立Docker Image，並在container中安裝CodeRoad
+5. 在命令面板輸入 ```CodeRoad: start```。VSCode會執行CodeRoad程式
+6. 在CodeRoad按下```Start New Tutorial```，點擊URL按鈕，貼上要學習的項目的tutorial.json檔案之URL，就能開始學習了。
+
 

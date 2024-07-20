@@ -59,9 +59,10 @@
 # 遇到的困境與解決辦法
 要完成這個專案時遇到滿多問題的，但這些問題並不是發生在專案本身；這專案其實很簡單直白，甚至連其裡頭使用的英文單字也都很簡單，從頭到尾也就一直使用上述列的指令而已。真正難的點是如何開啟這個學習專案。
 
-FreeCodeCamp的relational Database相關專案的建設基礎是建立在Gitpod平台上，藉由Gitpod提供的個人workspace服務來執行並紀錄專案的進度，但Gitpod兩年前突然設立手機驗證系統，為了避免Gitpod的資源被一堆免費帳號過度浪費，但它的手機驗證系統其實滿其奇特的，不是傳簡訊驗證而是打電話，而恰巧我的國家電信業者好像不支援此服務🥲，所以試了很多隻門號都無法通過驗證，所以我就上網查查解決辦法，便發現還有透過在本機來執行專案的方法(ps：此方法不能在freecodecamp帳號上留下紀錄🥲)，也是我認識Linux、Docker的開端。
+FreeCodeCamp的relational Database相關專案的建設基礎是建立在Gitpod平台上，藉由Gitpod提供的個人workspace服務來執行並紀錄專案的進度，但Gitpod兩年前突然設立手機驗證系統，為了避免Gitpod的資源被一堆免費帳號過度浪費，但它的手機驗證系統其實滿其奇特的，不是傳簡訊驗證而是打電話，而恰巧我的國家電信業者好像不支援此服務🥲，所以試了很多隻門號都無法通過驗證，所以我就上網查查解決辦法，便發現還有透過在本機來執行專案的方法，也是我認識Linux、Docker的開端。
 
 freecodecamp的relational database的相關實作專案是以Linux作業系統為基礎開發的學習程式軟體，所以要開始學習需先學習如何架設Docker container，需要用的的軟體有 Docker engine、VScode、Git。
+### 軟體介紹
 + Docker engine：是一種開源的主機軟體，能支援多種作業系統(如Windows、各種Linux發行版)並在上面架設、執行多個Docker Containers，所以能把Docker engine視為一種管理、執行Docker Containers的平台軟體(但不是直接管理，而是透過Docker Image)。
 > Docker Container是一種能夠安全、快速、簡單地執行各種程式的工具，每個container都具有以下特性
 > 1. 隔離性：每個container都是獨立互不影響的，並且與主機系統保持一定的"安全距離"(並不能完全避免惡意程式的攻擊，所以還是不要隨意下載未知軟體)。
@@ -79,4 +80,6 @@ freecodecamp的relational database的相關實作專案是以Linux作業系統�
 5. 在命令面板輸入 ```CodeRoad: start```。VSCode會執行CodeRoad程式
 6. 在CodeRoad按下```Start New Tutorial```，點擊URL按鈕，貼上要學習的項目的tutorial.json檔案之URL，就能開始學習了。
 
+### 感想
+儘管能在本機上學習，但學習紀錄並不會留在個人的freeCodecamp帳號上，所以也沒辦法得到認證，超級可惜(我有向官方反應此問題，他們已經在著手開發相關功能了，但就是要等到猴年馬月)，所以我為了不留下遺憾，試著直接跟Gitpod官方反應，我還以為他們會不理我，結果幾天後，他們直接手動幫我的帳戶驗證了......恩，對，我當初沒想到有這招，所以花了三天時間摸索、玩玩看VScode和Git與Docker，甚至還跑去了解什麼是Linux並寫了一篇[以初學者角度介紹Linux的文章](https://medium.com/@singlepackage/lv-1-%E6%B7%BA%E8%AB%87-linux%E7%9A%84%E7%A5%9E%E9%80%9A%E5%BB%A3%E5%A4%A7%E8%88%87%E7%9F%AD%E6%9D%BF-4764c041279f)，把自己對Linux的認識寫下來留個紀錄，寫完文章學完專案後我的Gitpod帳戶就能用了，hen棒😇。雖然過程崎嶇但有學到東西而且結果是好的，我也就沒什麼在意了，畢竟摸索期間還是挺好玩的。
 

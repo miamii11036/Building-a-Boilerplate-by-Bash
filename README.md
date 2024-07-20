@@ -62,5 +62,9 @@
 FreeCodeCamp的relational Database相關專案的建設基礎是建立在Gitpod平台上，藉由Gitpod提供的個人workspace服務來執行並紀錄專案的進度，但Gitpod兩年前突然設立手機驗證系統，為了避免Gitpod的資源被一堆免費帳號過度浪費，但它的手機驗證系統其實滿其奇特的，不是傳簡訊驗證而是打電話，而恰巧我的國家電信業者好像不支援此服務🥲，所以試了很多隻門號都無法通過驗證，所以我就上網查查解決辦法，便發現還有透過在本機來執行專案的方法(ps：此方法不能在freecodecamp帳號上留下紀錄🥲)，也是我認識Linux、Docker的開端。
 
 freecodecamp的relational database的相關實作專案是以Linux作業系統為基礎開發的學習程式軟體，所以要開始學習需先學習如何架設Docker container，需要用的的軟體有 Docker engine、VScode、Git。
-+ Docker engine：是一種開源的主機軟體，能支援多種作業系統(如Windows、各種Linux發行版)並在上面架設、執行多個Docker Containers，所以能把Docker engine視為一種管理、執行Docker Containers的平台軟體
-> Docker Container是一種能夠安全、快速、簡單地執行各種程式的工具
++ Docker engine：是一種開源的主機軟體，能支援多種作業系統(如Windows、各種Linux發行版)並在上面架設、執行多個Docker Containers，所以能把Docker engine視為一種管理、執行Docker Containers的平台軟體(但不是直接管理，而是透過Docker Image)。
+> Docker Container是一種能夠安全、快速、簡單地執行各種程式的工具，每個container都具有以下特性
+> 1. 隔離性：每個container都是獨立互不影響的，並且與主機系統保持一定的"安全距離"(並不能完全避免惡意程式的攻擊，所以還是不要隨意下載未知軟體)。
+> 2. 輕量性：container共用主機系統的核心，所以能夠快速啟動並且佔用資源較少。
+> 3. 移植性：container包含運行應用程式所需要的所有東西，所以只要環境支援Docker就能執行container所含的應用程式。
+> 4. 版本控制：container是架設在Docker Image上，而Image具有 只能被讀取不能被更改、層次結構的版本紀錄，所以藉由選擇Image的版本來回到"上一步"。
